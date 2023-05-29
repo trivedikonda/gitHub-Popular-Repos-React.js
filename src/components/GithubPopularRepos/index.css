@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  color: #0f172a;
+  font-size: 40px;
+  font-family: 'Lobster';
+}
+
+/* Write your CSS here */
+.languages-container {
+  width: 30vw;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.repositories-container {
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-msg {
+  font-family: 'Bree Serif';
+  font-size: 35px;
+  font-weight: bold;
+}
