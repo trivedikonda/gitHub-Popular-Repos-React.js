@@ -35,7 +35,7 @@ class GithubPopularRepos extends Component {
   }
 
   getRepositories = async () => {
-    // this.setState({apiStatus: apiStatusConstants.inProgress})
+    this.setState({apiStatus: apiStatusConstants.inProgress})
     const {activeLanguageId} = this.state
     const url = `https://apis.ccbp.in/popular-repos?language=${activeLanguageId}`
 
